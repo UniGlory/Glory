@@ -5,12 +5,13 @@ public class ex2017111304 {
         Scanner scn=new Scanner(System.in);
         long n=scn.nextLong();
         int m=scn.nextInt();
-        int =0;
+        int sum=0;
         while (n>0){
             if (n%10==m){
-                count++;
+                sum++;
             }
             n=n/10;
         }
+        System.out.println(sum);
     }
 }
